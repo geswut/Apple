@@ -2,19 +2,24 @@
   font-family: 'roboto';
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .nav {
   background-color: #333333;
   padding: 0 50px 14px;
   position: fixed;
   width: 100%;
   top: 0;
+  opacity: 0.8;
 }
 
 .nav ul {
   margin: auto;
   padding: auto;
   text-align: center;
-
 }
 
 .nav li {
@@ -23,7 +28,6 @@
   text-decoration: none;
 }
 
-
 .nav img {
   width: 20px;
   height: 20px;
@@ -31,7 +35,6 @@
   margin-top: 15px;
   padding: 0 40px;
 }
-
 
 .nav li a {
   color: #fff;
@@ -43,7 +46,6 @@
 .nav li a:hover {
   color: #C7C7C7;
 }
-
 
 .logo {
   width: 3%;
@@ -69,8 +71,7 @@
   background-image: url(../img/iphonex.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 0;
-  padding: 0;
+  margin-top: 50px;
 }
 
 section {
@@ -82,10 +83,147 @@ section {
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 20px 100px 500px 100px;
+  margin-top: 15px;
 }
 
 .iphonered h1 {
   font-size: 55px;
   padding-top: 0;
   text-align: center;
+}
+
+.ipad {
+  background-image: url(../img/ipad.png);
+  padding: 20px 20px 200px 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 47%;
+  margin-top: 15px;
+
+  display: inline-block;
+}
+
+.macbook {
+  display: inline-block;
+  text-align: right;
+  background-image: url(../img/macbook.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 20px;
+  width: 47%;
+  padding: 20px 20px 200px 0;
+  color: #15636B;
+}
+
+.iwatch {
+  display: inline-block;
+  text-align: left;
+  background-image: url(../img/iwatch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 47%;
+  padding: 20px 20px 300px 0;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.homepod {
+  display: inline-block;
+  text-align: right;
+  background-image: url(../img/homepod.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 47%;
+  padding: 20px 20px 300px 0;
+  margin-top: 15px;
+}
+
+.airpod {
+  display: inline-block;
+  text-align: center;
+  background-image: url(../img/airpod.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 47%;
+  padding: 20px 20px 300px 0;
+}
+
+.music {
+  display: inline-block;
+  text-align: center;
+  background-image: url(../img/applewatch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 47.5%;
+  margin-left: 15px;
+  padding: 20px 20px 300px 0;
+}
+
+.footer {
+  text-align: center;
+  background-color: #D6D6D6;
+  margin-top: 15px;
+}
+
+
+Div.footer {
+  padding-top: 20px;
+  height: 100%;
+}
+
+hr {
+  width: 50%;
+  background-color: #CCCECF;
+  border-top: 2px;
+  border-color: #B0B0B0;
+}
+
+.ul1 {
+  display: inline-block;
+  margin: 5px 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #858585;
+  font-size: 12px;
+  line-height: 30px;
+  list-style: none;
+}
+
+.ul2 {
+  display: inline-block;
+  margin: 5px 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #858585;
+  font-size: 12px;
+  line-height: 30px;
+  list-style: none;
+}
+
+.ul3 {
+  display: inline-block;
+  margin: 5px 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #858585;
+  font-size: 12px;
+  line-height: 30px;
+  list-style: none;
+}
+
+.ul4 {
+  display: inline-block;
+  margin: 5px 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #858585;
+  font-size: 12px;
+  line-height: 30px;
+  list-style: none;
+}
+
+h6 {
+  color: #88898A;
+
 }
